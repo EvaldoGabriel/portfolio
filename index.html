@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Evaldo Gabriel — Portfólio</title>
+<meta name="description" content="Portfólio de Evaldo Gabriel — Engenharia de Software">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <nav>
+    <h1>Evaldo Gabriel</h1>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <h2>Olá, eu sou <span>Evaldo Gabriel</span></h2>
+  <p>Estudante do 7º semestre de Engenharia de Software | 21 anos</p>
+  <p>Desenvolvedor focado em tecnologias web modernas.</p>
+  <button id="downloadCV">  📄 Baixar Currículo<a
+  href="https://drive.google.com/uc?export=download&id=1GtSMsLefoBT-VImr_c_JKZJX3tobQyh5"
+  class="download-btn"
+  target="_blank"
+>
+ 
+</a>
+
+</button>
+</section>
+
+<section id="sobre">
+  <h2>Sobre Mim</h2>
+  <p>
+    Estudante de Engenharia de Software, técnico em informática,
+    com experiência em suporte técnico e desenvolvimento web.
+    Busco oportunidades como desenvolvedor.
+  </p>
+</section>
+
+<section id="projetos">
+  <h2>Projetos</h2>
+  <div class="projetos-container">
+    <div class="projeto">
+     <a href="controle de estoque/controle de estoque.html"><h3>Controle de Estoque</h3>
+      <p>Sistema web para gerenciamento de produtos.</p></a> 
+    </div>
+    <div class="projeto">
+     <a href="chamados de suporte/chamados de suporte.html"><h3>Dashboard de chamados</h3>
+      <p>Site responsivo feito com HTML, CSS e JavaScript.</p></a> 
+    </div>
+  </div>
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades</h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Node.js</li>
+    <li>MySQL</li>
+    <li>Git & GitHub</li>
+  </ul>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+
+  <!-- FORMULÁRIO EMAILJS -->
+  <form id="contact-form">
+    <input type="text" id="name" placeholder="Seu nome" required>
+    <input type="email" id="email" placeholder="Seu e-mail" required>
+    <textarea id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+    <button type="submit">Enviar</button>
+    <p id="status"></p>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Evaldo Gabriel. Todos os direitos reservados.</p>
+</footer>
+
+<!-- EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
